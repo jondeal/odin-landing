@@ -6,16 +6,9 @@ body {
 
 .header {
     background: #1F2937;
-    display: flex;
-    justify-content: center;
-    gap: 32px;
 }
 
 .header-left {
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    justify-content: left;
 }
 
 .header-logo {
@@ -25,7 +18,7 @@ body {
 .hero-text {
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 .header-text {
@@ -35,17 +28,14 @@ body {
 
 .header-signup-button {
     background-color: #3882F6;
-    color: white;
+    color: #F9FAF8;
+    font-weight: bold;
     width:fit-content;
     border-radius: 8px;
-    border-color: tra;
+    border-color: transparent;
 }
 
 .header-right {
-    display: flex;
-    flex: 1;
-    justify-content: center;
-    flex-direction: column;
 }
 
 ul {
@@ -62,24 +52,66 @@ li {
     font-size: 18px;
 }
 
-.information {
+.information-section {
     display: flex;
     flex-direction: column;
     flex: 1;
     justify-content: center;
+}
+
+.information-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+img.information-image {
+    border: 2px solid #3882F6;
 }
 
 .quote-section {
     background: #E5E7EB;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight:300;
+    font-style: italic;
+}
+
+.quote-attribution {
+
+}
+
+.call-to-action-section {
+    background-color: #F9FAF8;
     display: flex;
-    flex: 1;
     justify-content: center;
-    flex-direction: column;
+    align-items: center;
 }
 
 .call-to-action-box {
     background-color: #3882F6;
+    border-radius: 8px;
     display: flex;
+}
+
+.call-to-action-title {
+    color: #F9FAF8;
+}
+
+.call-to-action-text {
+    color: #E5E7EB;
+}
+
+.call-to-action-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    width:fit-content;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
 }
 
 .footer {
